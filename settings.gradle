@@ -1,14 +1,6 @@
 rootProject.name = 'EnemyDownApp'
 
-toolchainManagement {
-    jvm {
-        javaRepositories {
-            repository("foojay") {
-                resolverClass = org.gradle.toolchains.foojay.FoojayToolchainResolver
-            }
-        }
-    }
-}
+
 
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.9.0'
